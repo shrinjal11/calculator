@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calc">
+           <input type="text" id="screen" readonly placeholder="0">
+           <div class="buttons">
+            <button class="button" id="one" onclick="insertOne()">1</button>
+            <button class="button" id="two" onclick="insertTwo()">2</button>
+            <button class="button" id="three" onclick="insertThree()">3</button>
+            <button class="button" id="four" onclick="insertFour()">4</button>
+            <button class="button" id="five" onclick="insertFive()">5</button>
+            <button class="button" id="six" onclick="insertSix()">6</button>
+            <button class="button" id="seven" onclick="insertSeven()">7</button>
+            <button class="button" id="eight" onclick="insertEight()">8</button>
+            <button class="button" id="nine" onclick="insertNine()">9</button>
+            <button class="button" id="zero" onclick="insertZero()">0</button>
+            <button class="button" id="plus" onclick="add()" style="background-color:#A0887E; color: #fff;">+</button>
+            <button class="button" id="minus" onclick="subtract()" style="background-color:#A0887E ; color: #fff;">-</button>
+            <button class="button" id="times" onclick="multiply()" style="background-color: #A0887E;; color: #fff;">x</button>
+            <button class="button" id="over" onclick="divide()" style="background-color:  #A0887E; color: #fff;">/</button>           
+            <button class="button" id="clear" style="background-color: #EEE3D1;; color:  #5a4c46;">C</button>
+            <button class="button" id="equal" onclick="calculate()" style="background-color:  #EEE3D1; color:  #5a4942;">=</button>
+           </div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
